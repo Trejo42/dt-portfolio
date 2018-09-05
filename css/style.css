@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("./resources/images/");
+  background-color: rgba(10, 10, 10, 0.7);
+  height: 45.2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 2.5rem;
+}
