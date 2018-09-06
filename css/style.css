@@ -1,5 +1,5 @@
 html {
-  font-family: 'source code pro', helvetica, sans-serif;
+  font-family: 'exo 2', helvetica, sans-serif;
   font-size: 16px;
 }
 
@@ -22,7 +22,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 header .container {
@@ -52,15 +51,15 @@ header .title {
 }
 
 header h1 {
-  font-size: 80px;
+  font-size: 5rem;
   text-transform: uppercase;
-  width: 960px;
+  width: 60rem;
   border-bottom: solid 2px black;
   padding-bottom: 1.5rem;
 }
 
 header p {
-  font-size: 40px;
+  font-size: 2.5rem;
   padding-top: 1.2rem;
 }
 
@@ -73,4 +72,8 @@ main {
 /*Footer Content*/
 footer {
   background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer .container {
+  height: 15rem;
 }
