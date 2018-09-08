@@ -74,6 +74,7 @@ main {
 
 main .container {
   padding: 2rem 0;
+  height: 100rem;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -126,16 +127,17 @@ footer .social a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem auto;
   width: 2rem;
   height: 2rem;
-
+  box-shadow: 0px 5px 0px rgba(255, 255, 255, 0.3);
   background-color: rgba(0, 0, 0, 0.4);
   transition: 300ms ease-in-out;
 }
 
 footer .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 footer p {
